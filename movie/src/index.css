@@ -1,0 +1,199 @@
+header{
+display: flex;
+background-color: black;
+height: 60px;
+}
+
+img{
+  background-size: 118px 14px;
+}
+
+.buynow{
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: green;
+  color:white;
+  text-decoration: none;
+  padding: 5px;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.first{
+  background-image:url('../src/style.css/hero\ \(1\).jpg');
+  padding: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+
+}
+.navbarimg,
+.content,
+.navbar,
+.paragraph {
+  margin: auto; 
+}
+
+.navbar{
+  display: flex;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+  margin-bottom:100px; 
+ 
+}
+.navbarimg {
+  margin-right: 20px; 
+}
+.linknavbar {
+  text-decoration: none;
+  color:white;
+  margin-right: 10px;
+  text-align: right;
+  position: relative; 
+  margin-left: 15px;
+}
+
+.linknavbar::after {
+  content: '';
+  position: absolute;
+  bottom: -3px; 
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid transparent; 
+  transition: border-color 0.3s ease; 
+
+}
+
+.linknavbar:hover::after {
+  
+  border-color: orange; 
+}
+.h1{
+  color:white;
+  font-size: 40px;
+}
+.h5{
+  color:#fbbd61;
+}
+
+.p2{
+  color:white;
+}
+
+h3{
+  border:1px solid white;
+  border-radius: 600px;
+  color:white;
+  width:30px;
+  padding: 10px;
+}
+
+.news{
+  
+ 
+}
+.newsp {
+  border-bottom: 1px solid gray;
+  position: relative;
+  color:rgb(214, 0, 0);
+  text-align: left;
+}
+
+.newsp::after {
+  content: '';
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+  width: 100px;
+  border-bottom: 2px solid orange; 
+}
+
+.threeimg img{
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.threeimg img:hover {
+  background-color: orange; /* Hover durumunda arka plan rengi */
+  color: white; /* Yazı rengi */
+  padding: 10px; /* İçerik (content) boşluğu */
+  position: relative; /* Konumlandırma için */
+}
+
+.threeimg img:hover::after {
+  content: 'Hello! What are you doing?'; /* İçerik (content) */
+  position: absolute; /* Konumlandırma için */
+  top: 0; /* Üstten mesafe */
+  left: 100%; /* Sağdan mesafe */
+  padding: 10px; /* İçerik (content) boşluğu */
+  background-color: orange; /* Arka plan rengi */
+  color: white; /* Yazı rengi */
+  border-radius: 5px; /* Köşe yuvarlama */
+  white-space: nowrap; /* Satır atlamayı engelleme */
+  z-index: 1; /* Diğer elementlerin önünde olması için */
+  opacity: 0; /* Başlangıçta gizleme */
+  transition: opacity 0.3s ease; /* Geçiş efekti */
+}
+
+.threeimg img:hover::after {
+  opacity: 1; /* Hover durumunda içeriği gösterme */
+}
+
+
+.sixth{
+  background-color: white;
+  padding: 20px;
+}
+.sixth h2{
+  color: #ec7532;
+  font-size: 40px;
+}
+.sixth p{
+  font-size: 30px;
+  color:grey;
+}
+
+.last{
+  background-color:black ;
+  padding: 70px;
+}
+.footer{
+  display: flex;
+}
+
+.get h5{
+  color:orangered
+}
+.get a{
+  display: block;
+  text-decoration: none;
+  color:white
+}
+
+.gets {
+align-items: right;
+}
+.gets a{
+   display: block;
+  color:white;
+  text-decoration: none;
+}
+
+.gets h5{
+  color:orangered;
+}
+
+.get:not(:last-child) {
+  margin-bottom: 20px; 
+  border-bottom: 1px solid #242222; 
+  padding-bottom: 20px; 
+}
+.gets {
+  border-bottom: 1px solid #2a2929;
+  padding-top: 1px; 
+}
+
+.copywrite p{
+  color:white;
+  text-align: left;
+}
